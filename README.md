@@ -1,5 +1,5 @@
 # upload-image
-####### upload image
+upload image
 ### Free Open Source Upload Image Script
 #### Demo: https://emre-resim.herokuapp.com/
 
