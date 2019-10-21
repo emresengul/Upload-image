@@ -1,0 +1,40 @@
+doctype html
+head
+  // Required meta tags
+  meta(charset='utf-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no')
+  // Bootstrap CSS
+  link(rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T' crossorigin='anonymous')
+  link(rel='stylesheet' href='css/index.css')
+  title Emre Sengul | Upload Photo,Save Quickly
+header
+  .head-title.container
+    h1 Emre Şengül
+    p Uploading any photo is now very simple
+    p upload your selected pictures now get quick links
+section#upload-section
+  .upload.container
+    .content
+    form(action="/"  enctype="multipart/form-data" method="POST") 
+      .inline
+        input#upload(type='file' name="upload" accept="image/*")
+        a#upload_link(href='#')
+          img#resim(src='/img/img.png' alt='')
+        h5#resimadi 
+        .send#send.mt-5.col-md-12
+            input.btn.btn-info(type="submit" value="Upload Now")
+
+// Optional JavaScript
+// jQuery first, then Popper.js, then Bootstrap JS
+script(src="js/kontrol.js")
+script(src='https://code.jquery.com/jquery-3.3.1.slim.min.js' integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo' crossorigin='anonymous')
+script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js' integrity='sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1' crossorigin='anonymous')
+script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js' integrity='sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM' crossorigin='anonymous')
+
+script.
+  $(function () {
+  $("#upload_link").on('click', function (e) {
+  e.preventDefault();
+  $("#upload:hidden").trigger('click');
+  });
+  });

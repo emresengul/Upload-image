@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo|Gothic+A1|Hepta+Slab&display=swap');
+
+body{
+    font-family: 'Hepta Slab', serif;
+
+}
+.head-title{
+    position: relative;
+    margin-top: 1.88rem;
+    text-align: center;
+}
+.head-title p{
+    margin:1rem;
+}
+
+.content{
+    margin:auto;
+    display: block;
+    width: 100%;
+}
+.content h5{
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #00A8FF;
+}
+.upload{
+    margin-top: 5rem;
+    /* background-color: teal; */
+    height: 100px;
+    width: 300px;
+    top: 0;
+}
+
+.inline img{
+    width: 100%;
+    border-radius: 12%;
+    background: white;
+    -webkit-box-shadow: 17px 21px 25px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 17px 21px 25px 0px rgba(0,0,0,0.75);
+    box-shadow: 17px 21px 25px 0px rgba(0,0,0,0.75);
+}
+#upload_link{
+    text-decoration:none;
+}
+#upload{
+    display:none;
+}
+
+#send{
+    position: relative;
+    /* background: black; */
+    /* display: block; */
+    margin:auto;
+    /* width: 500px; */
+}
+#send input{
+    border-radius: 3%;
+    width: 100%;
+    margin: auto;
+}
+#resimadi{
+    margin-top: 0.5rem;
+    text-align: center;
+}

@@ -1,0 +1,30 @@
+html(lang="en")
+
+    head
+        link(rel="stylesheet", href="/css/404.css")
+        link(rel="stylesheet", href="/css/resim.css")
+        meta(charset='UTF-8')
+        meta(name='viewport' content='width=device-width, initial-scale=1.0')
+        meta(http-equiv='X-UA-Compatible' content='ie=edge')
+    body
+        
+        if found == true
+            div.image
+                a(href=`${direct}`)
+                    img.boyut(src=`/uploads/${image}`)
+            div.space 
+            div.share
+                h1 Advanced Sharing
+                label(for="text") Html Code
+                input(type="text" name="text" id="text" value=`${htmlEmbed}`).code          
+                label(for="text") Direct URL
+                input(type="text" value=`${direct}` href="#").code
+                a(href=`${direct}`)
+                    img( src="/img/link.svg" id="icon" )
+                h1 Visitor Counter : #{sayac}
+
+        else
+            div.hit-the-floor 404
+            div.hit-the-floor NOT FOUND
+            div#page.hit-the-floor #{url}
+            

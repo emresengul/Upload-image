@@ -1,0 +1,57 @@
+body {
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .container {
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto;
+  /*  box-shadow is from materialize css's website */
+    box-shadow: 0 24px 38px 3px rgba(0, 0, 0, 0.14),
+      0 9px 46px 8px rgba(0, 0, 0, 0.12), 0 11px 15px -7px rgba(0, 0, 0, 0.2);
+  }
+  
+  button.accordion {
+    width: 100%;
+    background-color: #B90101;
+    color: #fff;
+    border: none;
+    outline: none;
+    text-align: left;
+    padding: 1em 1.5em;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: background-color 0.2s linear;
+    display: flex;
+  }
+  
+  button.accordion:hover {
+    background-color: #FC1414;
+  }
+  
+  .accordion-content {
+    padding: 0 1em;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.2s ease-out;
+  }
+  
+  button div .arrow {
+    border: solid #fff;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 7px;
+    transform: rotate(-135deg);
+    transition: transform 0.3s ease-out;
+  }
+  
+  button div {
+    margin: auto 0 auto auto;
+  }
+  
