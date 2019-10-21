@@ -6,7 +6,7 @@ Demo: https://emre-resim.herokuapp.com/
 ![alt text](https://www.oyunboss.com/wp-content/uploads/2019/10/upload-image.png)
 
 # PICTURE SELECTED
-![alt text](hhttps://www.oyunboss.com/wp-content/uploads/2019/10/upload-image-choosed.png)
+![alt text](https://www.oyunboss.com/wp-content/uploads/2019/10/upload-image-choosed.png)
 
 # SHARE PAGE
 ![alt text](https://www.oyunboss.com/wp-content/uploads/2019/10/upload-image-share.png)
