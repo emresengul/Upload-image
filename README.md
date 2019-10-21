@@ -3,7 +3,7 @@
 ### Free Open Source Upload Image Script
 #### Demo: https://emre-resim.herokuapp.com/
 
-#FEATURES:
+# FEATURES:
 ### AUTOMATIC CREATE HTML EMBED CODE
 ### ADVANCED FILE CONTROL SYSTEM
 
